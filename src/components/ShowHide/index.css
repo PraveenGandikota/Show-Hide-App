@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-size: cover;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.heading {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.poojitha {
+  background-image: url('https://img.freepik.com/free-photo/pig-bucket-with-checkered-bow-tie-sits-hay-bale_188544-8388.jpg?w=740&t=st=1703273076~exp=1703273676~hmac=ad6712a5ef03eabc967b20478e6620f57d577dfadc1f72d2ccde4582f229d567');
+  height: 35vh;
+  width: 35vw;
+  background-size: cover;
+  border-radius: 15px;
+  padding-bottom: 10vh;
+}
+.praveen {
+  background-image: url('https://img.freepik.com/free-photo/head-tiger-sumatera-closeup-with-dark-blue-wall_488145-176.jpg?w=740&t=st=1703273869~exp=1703274469~hmac=9b9c64a3e96094a2d62d63dbcd13c371a3e62b6905a3b440f415ba9ca4c1a9ea');
+  height: 35vh;
+  width: 35vw;
+  background-size: cover;
+  border-radius: 15px;
+}
+.parrpraveen {
+  text-align: center;
+  color: #061e3b;
+  font-weight: bold;
+  font-family: bree serif;
+  font-size: 23px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.show-hide-button {
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+}
+
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+}
